@@ -1,6 +1,7 @@
 
-stage
-fmodstudioapi*
+/stage
+/fmodstudioapi*
+/result.txt
 
 *.tar.*
 *.zip
