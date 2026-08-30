@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 FMOD_ROOT_NAME="fmodstudioapi"
-FMOD_VERSION="20307"
-FMOD_VERSION_PRETTY="2.03.07"
+FMOD_VERSION="20312"
+FMOD_VERSION_PRETTY="2.03.12"
 
 cd "$(dirname "$0")"
 
@@ -34,7 +34,7 @@ case "$AUTOBUILD_PLATFORM" in
     FMOD_PLATFORM="win-installer"
     FMOD_FILEEXTENSION=".exe"
     ;;
-    "darwin")
+    darwin*)
     FMOD_PLATFORM="mac-installer"
     FMOD_FILEEXTENSION=".dmg"
     ;;
